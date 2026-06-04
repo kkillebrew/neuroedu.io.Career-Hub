@@ -111,9 +111,7 @@ def render_sidebar():
 
         st.divider()
         
-        # --- 3. CUSTOM NAVIGATION ---
-        st.markdown("### Navigation")
-        
+        # --- 3. CUSTOM NAVIGATION ---        
         # Internal Streamlit Page Links
         st.page_link("career_hub_app.py", label="Home")
         st.page_link("pages/1_academic_research_app.py", label="Academic Research")
