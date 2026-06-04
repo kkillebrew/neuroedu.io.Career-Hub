@@ -115,15 +115,14 @@ def render_sidebar():
         st.markdown("### Navigation")
         
         # Internal Streamlit Page Links
-        st.page_link("career_hub_app.py", label="Home / Hub", icon="🏠")
-        st.page_link("pages/1_academic_research_app.py", label="Academic Research", icon="🔬")
-        st.page_link("pages/2_mentorship_app.py", label="Education & Mentorship", icon="📚")
+        st.page_link("career_hub_app.py", label="Home")
+        st.page_link("pages/1_academic_research_app.py", label="Academic Research")
+        st.page_link("pages/2_mentorship_app.py", label="Education & Mentorship")
         
         # External Data Science Link (Opens in new tab)
         st.markdown("""
             <div style="margin-top: 5px;">
                 <a href="https://data-projects.neuro-edu.io/" target="_blank" style="text-decoration: none; color: #F8FAFC; display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 1.2rem;">📊</span> 
                     <span style="font-size: 1rem;">Data Science Portfolio ↗</span>
                 </a>
             </div>
