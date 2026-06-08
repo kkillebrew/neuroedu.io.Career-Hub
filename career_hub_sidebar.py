@@ -152,7 +152,7 @@ def render_sidebar():
                 Resume and website entirely self authored.<br>
                 Analysis, figures, models, and data authored and<br>
                 collected by a vibrant array of professors, postdocs,<br>
-                grad students, undergrads, professionals, and friends.<br>
+                grad students, techs, professionals, and friends.<br>
                 References reported for all published analysis. 
             </div>
         """, unsafe_allow_html=True)
