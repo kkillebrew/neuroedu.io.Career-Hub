@@ -149,6 +149,10 @@ def render_sidebar():
         st.markdown("""
             <div class="sidebar-footer">
                 © 2026 Kyle W. Killebrew.<br>
-                Data, models, and resume entirely self-authored.
+                Resume and website entirely self authored.<br>
+                Analysis, figures, models, and data authored and<br>
+                collected by a vibrant array of professors, postdocs,<br>
+                grad students, undergrads, professionals, and friends.<br>
+                References reported for all published analysis. 
             </div>
         """, unsafe_allow_html=True)
